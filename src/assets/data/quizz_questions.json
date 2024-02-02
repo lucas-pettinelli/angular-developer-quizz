@@ -1,0 +1,136 @@
+{
+    "title": "Descubra que tipo de desenvolvedor você seria com base nas stacks existentes:",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Qual matéria que você mais gosta?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Matemática",
+                    "alias": "C"
+                },
+                {
+                    "id": 2,
+                    "name": "Biologia",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Física",
+                    "alias": "D"
+                },
+                {
+                    "id": 4,
+                    "name": "Artes",
+                    "alias": "A"
+                },
+                {
+                    "id": 5,
+                    "name": "Filosofia",
+                    "alias": "E"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Escolha o seu Hello World",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "System.out.println('Hello World!')",
+                    "alias": "C"
+                },
+                {
+                    "id": 2,
+                    "name": "echo 'Hello World!';",
+                    "alias": "E"
+                },
+                {
+                    "id": 3,
+                    "name": "print('Hello World!')",
+                    "alias": "B"
+                },
+                {
+                    "id": 2,
+                    "name": "console.log('Hello World!');",
+                    "alias": "A"
+                },
+                {
+                    "id": 3,
+                    "name": "println('Hello, World!')",
+                    "alias": "D"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Qual linguagem de programação você prefere?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Javascript",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Python",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Java",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Kotlin",
+                    "alias": "D"
+                },
+                {
+                    "id": 5,
+                    "name": "Php",
+                    "alias": "E"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Me pague um(a): ",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Água saborizada",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Chá",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Café",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Suco",
+                    "alias": "D"
+                },
+                {
+                    "id": 5,
+                    "name": "Energético",
+                    "alias": "E"
+                }
+            ]
+        }
+    ],
+    "results": {
+        "Frontend": "A",
+        "Dados": "B",
+        "Backend": "E",
+        "Fullstack": "C",
+        "Mobile": "D"
+    }
+}
