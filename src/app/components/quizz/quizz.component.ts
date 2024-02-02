@@ -43,15 +43,28 @@ export class QuizzComponent implements OnInit {
     this.nextStep()
   }
 
-  nextStep() {
+  async nextStep() {
     this.questionIndex += 1
 
     if (this.questionMaxIndex > this.questionIndex) {
       this.questionSelected = this.questions[this.questionIndex]
     } else {
+      const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
-      //Check champion option
-      
+      this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
     }
   }
+
+  async checkResult(answers: string[]) {
+    //Frequency of results at array in [ A, B, C, D or E ] 
+    const result = answers.reduce((previous, current, i, arr) => {
+      if (arr.filter(item => item === previous).length > arr.filter(item => item === current).length) {
+        return previous
+      } else {
+        return current
+      }
+    })
+    return result
+  }
+
 }
