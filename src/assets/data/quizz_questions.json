@@ -1,9 +1,9 @@
 {
-    "title": "Descubra que tipo de desenvolvedor você seria com base nas stacks existentes:",
+    "title": "Descubra que tipo de desenvolvedor de software você seria com base nas stacks existentes:",
     "questions": [
         {
             "id": 1,
-            "question": "Qual matéria que você mais gosta?",
+            "question": "Qual disciplina que você mais gosta?",
             "options": [
                 {
                     "id": 1,
@@ -127,41 +127,58 @@
         },
         {
             "id": 5,
-            "question": "",
+            "question": "Selecione duas palavras: ",
             "options": [
                 {
                     "id": 1,
-                    "name": "",
-                    "alias": "A"
+                    "name": "Facilidade e Praticidade",
+                    "alias": "D"
                 },
                 {
                     "id": 2,
-                    "name": "",
+                    "name": "Interpretação e Observação",
                     "alias": "B"
                 },
                 {
                     "id": 3,
-                    "name": "",
-                    "alias": "C"
+                    "name": "Interface e Interatividade",
+                    "alias": "A"
                 },
                 {
                     "id": 4,
-                    "name": "",
-                    "alias": "D"
+                    "name": "Integralista e Compartilhamento ",
+                    "alias": "C"
                 },
                 {
                     "id": 5,
-                    "name": "",
+                    "name": "Técnica e Estrutura",
                     "alias": "E"
                 }
             ]
         }
     ],
-    "results": {
-        "A": "Frontend",
-        "B": "Dados",
-        "C": "Fullstack",
-        "D": "Mobile",
-        "E": "Backend"
-    }
+    "results": [
+        {
+            "A": {
+                "text": "Frontend",
+                "img": ""
+            },
+            "B": {
+                "text": "Dados",
+                "img": ""
+            },
+            "C": {
+                "text": "Fullstack",
+                "img": "https://i.ibb.co/JxVqzFb/dinossaur-fullstack-removebg-preview.png"
+            },
+            "D": {
+                "text": "Mobile",
+                "img": "https://i.ibb.co/JqDVm3W/dinousaur-mobile.png"
+            },
+            "E": {
+                "text": "Backend",
+                "img": ""
+            }
+        }
+    ]
 }

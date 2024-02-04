@@ -18,7 +18,8 @@
 
     <div *ngIf=finished class="quizz-results">
         <h1>Seu resultado é: </h1>
-        <p>{{answerSelected}}</p>
+        <p>{{answerSelected.text}}</p>
+        <img [src]="answerSelected.img" alt="Resultado de uma imagem de qual desenvolvedor você se parece." />
     </div>
 
 </div>
