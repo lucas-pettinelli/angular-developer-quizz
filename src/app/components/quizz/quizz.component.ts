@@ -4,7 +4,7 @@ import quizz_questions from "../../../assets/data/quizz_questions.json"
 @Component({
   selector: 'app-quizz',
   templateUrl: './quizz.component.html',
-  styleUrl: './quizz.component.css'
+  styleUrls: ['./quizz.component.css', './quizz.component.responsive.css']
 })
 export class QuizzComponent implements OnInit {
 
@@ -85,6 +85,10 @@ export class QuizzComponent implements OnInit {
     this.questionSelected = this.questions[this.questionIndex];
     this.answerSelected = '';
     this.imageSrc = '';
+  }
+
+  reloadButton(){
+    window.location.reload();
   }
 
 }

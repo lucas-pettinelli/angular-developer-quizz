@@ -17,11 +17,12 @@
 
 .quizz-logo h3 {
     margin-top: 0.1rem;
+    margin-bottom: 0.8rem;
 }
 
 .quizz-questions {
     width: 100%;
-    height: 150px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +41,7 @@
     margin: auto;
 }
 
-button {
+.quizz-options button {
     width: 40%;
     display: inline-block;
     cursor: pointer;
@@ -54,11 +55,11 @@ button {
     text-decoration: none;
 }
 
-button:hover {
+.quizz-options button:hover {
     background-color: #FF5083;
 }
 
-button:active {
+.quizz-options button:active {
     position: relative;
     top: 1px;
     background-color: #D7014E;
@@ -89,4 +90,32 @@ button:active {
     min-width: 70px;
     border-radius: 4px;
     margin-top: 1rem;
+}
+
+.quizz-reload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.quizz-reload button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #FE7496;
+    border-radius: 2rem;
+    padding: 1rem 5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.quizz-reload button:hover {
+    color: #241a1d;
+    background-color: #FFCB4C;
+    border: 2px solid #FF5082;
+}
+
+.quizz-reload button:active {
+    position: relative;
+    top: 1px;
+
 }

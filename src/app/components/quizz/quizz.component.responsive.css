@@ -1,0 +1,33 @@
+@media screen and (max-width: 440px) {
+    .quizz-container {
+        width: 90%;
+        margin: 1.4rem;
+    }
+    .quizz-questions {
+        height: 200px;  
+        display: flex;
+        font-size: 10pt;
+        margin-bottom: 1rem;
+    }
+    .quizz-logo img {
+        width: 300px;
+    }
+    .quizz-options button {
+        width: 100%;
+        cursor: pointer;
+        background-color: transparent;
+        color: #ffffff;
+        margin: 0.4rem;
+        border-radius: 8px;
+        border: 1px solid #ff5082;
+        font-size: 12pt;
+        padding: 1.2rem 2rem;
+    }
+    .quizz-results img {
+        width: 190px;
+        min-width: 70px;
+        border-radius: 4px;
+        margin-top: 1rem;
+    }
+    
+}

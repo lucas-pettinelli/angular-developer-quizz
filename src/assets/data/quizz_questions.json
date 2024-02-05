@@ -1,5 +1,5 @@
 {
-    "title": "Descubra que tipo de desenvolvedor de software você seria com base nas stacks existentes:",
+    "title": "Descubra qual tipo de desenvolvedor de software você seria:",
     "questions": [
         {
             "id": 1,
@@ -161,11 +161,11 @@
         {
             "A": {
                 "text": "Frontend",
-                "img": ""
+                "img": "https://i.ibb.co/7N7PVZN/dinossaur-frontend-removebg-preview.png"
             },
             "B": {
                 "text": "Dados",
-                "img": ""
+                "img": "https://i.ibb.co/tcv5HCZ/artboard-data-dinossaur-1-removebg-preview.png"
             },
             "C": {
                 "text": "Fullstack",
@@ -177,7 +177,7 @@
             },
             "E": {
                 "text": "Backend",
-                "img": ""
+                "img": "https://i.ibb.co/QCCWVhg/dinossaur-backend-removebg-preview.png"
             }
         }
     ]
