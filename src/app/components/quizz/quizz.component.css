@@ -38,7 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
+   margin: auto;
 }
 
 .quizz-options button {
@@ -57,6 +57,7 @@
 
 .quizz-options button:hover {
     background-color: #FF5083;
+    font-weight: bold;
 }
 
 .quizz-options button:active {
@@ -99,23 +100,31 @@
     margin-top: 3rem;
 }
 
-.quizz-reload button{
+.quizz-reload button {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid #FE7496;
+    border: 1px solid #ffffff;
     border-radius: 2rem;
-    padding: 1rem 5rem;
-    font-weight: bold;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
     color: #ffffff;
 }
+
 .quizz-reload button:hover {
-    color: #241a1d;
-    background-color: #FFCB4C;
-    border: 2px solid #FF5082;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .quizz-reload button:active {
+    background-color: #ff5082;
     position: relative;
     top: 1px;
+}
 
+.quizz-reload img {
+    margin-bottom: 0.1rem;
+    margin-left: 0.7rem;
 }

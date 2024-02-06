@@ -12,8 +12,7 @@
 
     <div *ngIf=!finished class="quizz-options">
         <button *ngFor="let option of questionSelected.options; let i = index"
-        (click)="playerChoose(option.alias)"
-        >{{option.name}}</button>
+            (click)="playerChoose(option.alias)">{{option.name}}</button>
     </div>
 
     <div *ngIf=finished class="quizz-results">
@@ -23,7 +22,8 @@
     </div>
 
     <div (click)="reloadButton()" class="quizz-reload">
-        <button>Refazer</button>
+        <button>Refazer<img src="https://i.ibb.co/xmsCfwH/reload.png" alt=""></button>
+    
     </div>
 
 </div>
